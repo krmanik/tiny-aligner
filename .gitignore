@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+.Python
+env/
+venv/
+.venv/
+
+# Training checkpoints (large .pt files — download separately)
+checkpoints/
+checkpoints_*/
+
+# Training data (download separately, see docs/quickstart.md)
+data/aishell/
+data/LibriSpeech/
+
+# Test / scratch output
+test_outputs/
+training.log
+
+# Node
+node_modules/
+browser/dist/
+browser/dist-ssr/
+*.local
+browser/.env
+
+# Editor
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.DS_Store
+
+# Claude Code
+.claude/

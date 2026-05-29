@@ -1,0 +1,7 @@
+torch==2.5.1+cu121
+torchaudio==2.5.1+cu121
+num2words==0.5.14
+numpy==2.4.4
+pypinyin==0.55.0
+tqdm==4.67.3
+jieba==0.42.1
