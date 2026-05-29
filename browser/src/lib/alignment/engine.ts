@@ -13,7 +13,7 @@ async function getSession(): Promise<ort.InferenceSession> {
 
   ort.env.wasm.numThreads = 1;
 
-  sessionPromise = ort.InferenceSession.create('/model.onnx', {
+  sessionPromise = ort.InferenceSession.create(`${import.meta.env.BASE_URL}model.onnx`, {
     executionProviders: ['wasm'],
     graphOptimizationLevel: 'all',
   });

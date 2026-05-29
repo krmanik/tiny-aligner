@@ -15,7 +15,7 @@ function normalizePhoneMap(raw: Record<string, number>): Record<string, number> 
 export async function loadLexicon(): Promise<LexiconData> {
   if (lexiconCache) return lexiconCache;
 
-  const res = await fetch('/lexicon.json');
+  const res = await fetch(`${import.meta.env.BASE_URL}lexicon.json`);
   if (!res.ok) {
     throw new Error(`Failed to load lexicon.json: ${res.status}`);
   }
