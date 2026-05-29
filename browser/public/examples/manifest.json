@@ -1,0 +1,27 @@
+[
+  {
+    "id": "test_audio_000",
+    "audio": "/examples/audio/test_audio_000.wav",
+    "text": "这是对字幕和卡拉OK音频与文本强制对齐的测试。"
+  },
+  {
+    "id": "test_audio_001",
+    "audio": "/examples/audio/test_audio_001.wav",
+    "text": "这是一个包含英文word句子和单词sentence的例句。"
+  },
+  {
+    "id": "test_audio_002",
+    "audio": "/examples/audio/test_audio_002.wav",
+    "text": "这是一封粉丝投稿。投稿人希望匿名发出，文中观点仅代表投稿人个人。"
+  },
+  {
+    "id": "test_audio_003",
+    "audio": "/examples/audio/test_audio_003.wav",
+    "text": "随着技术主导权争夺日趋激烈，近年来针对在美中国公民的类似案件已出现多起。"
+  },
+  {
+    "id": "test_audio_004",
+    "audio": "/examples/audio/test_audio_004.wav",
+    "text": "Nine different, exciting ways of cooking sausage. Incredible. There were three outstanding deliveries in terms of the sausage being the hero. The first dish that we want to dissect, this individual smartly combined different proteins in their sausage. Great seasoning. The blend was absolutely spot on. Congratulations. Please step forward. Natasha."
+  }
+]
